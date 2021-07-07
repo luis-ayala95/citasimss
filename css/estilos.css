@@ -1,0 +1,59 @@
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  margin-left: 250px;
+}
+nav li {
+  float: left; /* Opcional si se quiere hacer una botonera horizontal */
+  margin-right: 3px;
+}
+nav a {
+ display: block;
+ text-decoration: none;
+ /* a partir de aquí el diseño */
+ color: #fff; /* color tipográfico */
+ font-family: sans-serif; /* familia tipográfica */
+ font-size: 14px; /* tamaño de la fuente */
+ background-color: #A8C9DF; /* color de fondo */ 
+ padding: 10px 20px; /* más cuerpo al botón */
+ border: 1px solid #8CB4CF;
+ border-radius: 3px; /* puntas redondeadas*/
+}
+nav a:hover {
+  background-color: #ACD2EC;
+  
+}
+.citas{
+    background: #ACD2EC;
+    height: 400px;
+	  width:1000px;
+    padding-left: 250px;
+    margin-left: 250px;
+    padding-top: 35px;
+}
+
+.perfil{
+  background: #ACD2EC;
+  min-height: 400px;
+  width:1000px;
+  padding-left: 50px;
+  margin-left: 250px;
+  padding-top: 35px;
+  padding-bottom: 10px;
+}
+.contenedor-cita, .info-cita{
+  background: beige;
+  width:450px;
+  margin-top: 10px;
+  padding: 10px;
+  margin-left: 10px;
+  border-radius: 10px;
+}
+#iniciarsesion{
+  left: 92%;
+  margin-top: 1%;
+  color: white;
+  
+}
